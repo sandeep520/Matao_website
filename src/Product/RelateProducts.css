@@ -1,0 +1,26 @@
+.cardComponent{
+    transition: all 3s ease-in-out;
+    transition-property: transform;
+    height: 458px;
+}
+
+.addCartLink{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .addCartLink{
+        display: flex;
+    }
+}
+
+/* .cardComponent{
+    height: 458px;
+} */
+.cardComponent:hover{
+    height: 458px;
+}
+
+.cardComponent:hover .addCartLink{
+    display: flex;
+}

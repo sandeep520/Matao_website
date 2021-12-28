@@ -1,0 +1,7 @@
+.App {
+    @apply  max-w-222 m-auto bg-mainBg m-0 p-0 overflow-hidden;
+}
+
+.App__body{
+    @apply  max-w-223 m-auto;
+}

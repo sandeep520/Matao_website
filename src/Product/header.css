@@ -1,0 +1,48 @@
+.header{
+    @apply flex justify-between py-2 items-center mb-6 md:py-8 md:mb-12;
+}
+
+.header__left {
+    @apply flex  items-center;
+}
+
+.header__middle {
+    @apply flex justify-between items-center;
+}
+
+.header__middle__lists{
+    @apply flex justify-center items-center ;
+}
+
+.header__middle__lists li{
+    @apply mr-10 font-taviraj font-normal tracking-wide;
+}
+
+.header__middle__lists li:last-child{
+    @apply mr-0;
+}
+
+
+.header__right{
+    @apply flex items-center mr-2;
+}
+
+.header__right_searchimg{
+    @apply w-8 h-8;
+}
+
+.header__right_avtarimg{
+@apply w-4 mr-3;
+}
+
+.header__right_loginspan{
+    @apply flex items-center w-12 mx-6;
+}
+
+.header__right_shoppingbagdesk{
+    @apply bg-black w-12 h-12;
+}
+
+.header__right_shoppingbagimg{
+    @apply w-2 h-2 items-center ;
+}
